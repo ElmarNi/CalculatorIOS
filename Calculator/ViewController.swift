@@ -118,7 +118,7 @@ class ViewController: UIViewController {
     
     @objc private func numberButtonTapped(_ sender: UIButton) {
         if operation == "=" {
-            firstNumber = ""
+            first3Number = ""
             secondNumber = ""
             operation = ""
             label.text = nil
